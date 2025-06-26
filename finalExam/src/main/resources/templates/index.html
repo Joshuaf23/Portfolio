@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Exam</title>
+</head>
+<body>
+    <h1>Final Exam</h1>
+    <p>Possible paths:</p>
+    <ul>
+        <li>/ - the root (you are here!)</li>
+        <li>/today - prints out today's date</li>
+        <li>/stock/{number} - prints out the inputted number</li>
+        <li>/allStockJson (<span th:text="${stocksCount}"></span>) - prints out all stocks in JSON</li>
+        <li>/oneJson/{number} - returns the stock with the specified id</li>
+        <li>/allStocks - displays a table with all stocks</li>
+    </ul>
+</body>
+</html>

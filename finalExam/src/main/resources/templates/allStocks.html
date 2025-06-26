@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>All Stocks</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Comments</td>
+                <td>Sentiment</td>
+                <td>Score</td>
+                <td>Symbol</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="stock: ${stocks}">
+                <td th:text="${stock.id}"></td>
+                <td th:text="${stock.comments}"></td>
+                <td th:text="${stock.sentiment}"></td>
+                <td th:text="${stock.score}"></td>
+                <td th:text="${stock.symbol}"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

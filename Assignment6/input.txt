@@ -1,9 +1,0 @@
-StudentID Student_Name Test 1 Test 2 Test 3 Total HrGPA
-45A3 Jones_H_A 86 88 95 98 3.42
-34K5 Horner_M 67 75 23 17 1.95
-56J8 Gach_T_A 75 85 90 60 3.75
-34U8 Hunter_C 100 50 75 75 2.60
-42P4 Hinrichs_S 85 75 65 52 3.29
-78T6 Johnson_K 80 78 89 15 2.00
-44L2 Levitte_H 56 66 99 100 2.35
-88I9 Garner_J 95 92 98 110 3.89
